@@ -1,4 +1,5 @@
 # khd-college-vue
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -32,3 +33,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+客户端
+>>>>>>> 532e7022946adee03f17931a46a1c6bc6f2054aa
