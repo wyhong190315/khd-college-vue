@@ -7,7 +7,7 @@
         </h2>
         <br />
         <div style="margin: 0 auto;width: 85%;min-height: 300px;text-align: left">
-            <a-list :grid="{ gutter: 18, column: 4 }" :dataSource="data">
+            <a-list :grid="{ gutter: 16, column: 4 }" :dataSource="data">
                 <a-list-item slot="renderItem" slot-scope="item">
                     <a-card class="card-block">
                         <div class="head" style="height: 70px;font-size: 20px;">
