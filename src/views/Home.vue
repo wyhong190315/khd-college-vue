@@ -17,6 +17,7 @@ import imageCarousel from '@/components/common/ImageCarousel'
 import listJob from '@/views/internship/ListJob'
 import footerMenu from '@/components/common/FooterMenu'
 import { postAction } from '@/api/data'
+import HomeTrain from '@/views/trainCenter/homeTrain'
 // import { constants } from 'zlib'
 export default {
   name: 'Home',
@@ -26,7 +27,7 @@ export default {
     }
   },
   components: {
-    firstNews,
+    HomeTrain,
     navMenu,
     imageCarousel,
     listJob,
@@ -47,6 +48,15 @@ export default {
 </script>
 <style lang="less" scoped>
 .home {
-  background-color: #fdfdfd
+    .ant-layout {
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+        min-height: 0;
+        background-image: url(../assets/img/bg1.png), url(../assets/img/bg2.png), url(../assets/img/bg3.png);
+        background-repeat: no-repeat;
+        background-size: 482px 806px, 301px 960px, 100% auto;
+        background-position: left 26%, right 36%, bottom center;
+    }
 }
 </style>
